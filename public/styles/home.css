@@ -8,22 +8,6 @@
 	object-fit: cover;
 }
 
-.marquee {
-	overflow: hidden;
-}
-.marquee p {
-	padding-left: 100%;
-	margin: 0;
-	font-weight: bold;
-	animation: marquee 16s linear infinite;
-	min-width: 100%;
-	width: max-content;
-}
-@keyframes marquee {
-	0% { transform: translateX(0); }
-	100% { transform: translateX(-100%); }
-}
-
 @media screen and (max-width: 800px) {
     .banner {
         height: 20vh;

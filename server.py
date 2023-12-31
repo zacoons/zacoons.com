@@ -25,7 +25,6 @@ def home():
         "zacoons' place",
         "A place of awesome epicness that is very awesome. Includes blog and epic coding.",
         "home.css",
-        marquee=conf["marquee"],
         featured=conf["featured"],
         featured_o=conf["featured_o"],
         featured_y=conf["featured_y"],
@@ -56,7 +55,7 @@ def skuare():
         "Skuare - zacoons' place",
         "A nifty little puzzle game where the goal is to turn all of the tiles green. I dare you to beat size 10.",
         "skuare.css")
-    
+
 # Static
 
 @app.error(404)
