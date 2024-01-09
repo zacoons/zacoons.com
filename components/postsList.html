@@ -1,8 +1,8 @@
-<div class="posts-list">
+<ul class="clean">
     % for post in posts:
     <div>
         <a href="/blog/{{post.postname}}">{{post.title}}</a>
         <span class="date">{{post.datestr}}</span>
     </div>
     % end
-</div>
+</ul>

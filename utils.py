@@ -4,7 +4,14 @@ from pathlib import Path
 from markdown import markdown
 from datetime import datetime
 from bs4 import BeautifulSoup
-from json import loads
+
+# load config
+conf = type('', (), {})()
+with open(".conf") as conf_file:
+    conf_file_lines = conf_file.read().splitlines()
+    for line in conf_file_lines:
+        key_value_pair = line.split("=", 1)
+        setattr(conf, key_value_pair[0], key_value_pair[1])
 
 class Post:
     def __init__(self, filepath):
@@ -28,10 +35,6 @@ def get_posts(max_count=0):
     if max_count:
         filenames = filenames[:max_count]
     return [get_post(filename) for filename in reversed(filenames)]
-
-def get_conf():
-    with open("conf.json") as conf_file:
-        return loads(conf_file.read())
 
 def get_description(html, characters=130):
     bs = BeautifulSoup(html, features="html.parser")

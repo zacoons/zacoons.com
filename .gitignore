@@ -1,5 +1,6 @@
 posts
 __pycache__
-conf.json
+.conf
 public/rss.xml
 public/assets/featured.png
+venv/
