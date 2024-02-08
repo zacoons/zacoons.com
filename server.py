@@ -1,7 +1,7 @@
 from bottle import Bottle, static_file, template, abort, HTTPError
 from os import listdir
 from os.path import exists
-from utils import get_post, get_posts, get_conf, get_description
+from utils import get_post, get_posts, conf, get_description
 from markdown import markdown
 
 app = Bottle()
@@ -15,7 +15,7 @@ def apply_template(base: str):
         title=page_props[0],
         description=page_props[1],
         stylesheet=page_props[2] if len(page_props) > 2 else "",
-        updated_date=get_conf()["updated_date"])
+        updated_date=conf.UPDATED_DATE)
 
 def get_html_page(filename, **kwargs):
     base = template("pages/" + filename + ".html", **kwargs)
@@ -23,11 +23,10 @@ def get_html_page(filename, **kwargs):
 
 @app.get("/")
 def home():
-    conf = get_conf()
     return get_html_page("home",
-        featured=conf["featured"],
-        featured_o=conf["featured_o"],
-        featured_y=conf["featured_y"],
+        featured=conf.FEATURED,
+        featured_o=conf.FEATURED_O,
+        featured_y=conf.FEATURED_Y,
         posts=get_posts(5))
 
 @app.get("/blog")
