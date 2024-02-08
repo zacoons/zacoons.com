@@ -1,33 +1,35 @@
 zacoons' place ;z; A place of awesome epicness that is very awesome. Includes blog and epic coding. ;z; home.css
-<div class="flex banner">
-	<img src="/assets/banner.png" alt="epic banner">
-</div>
 
-<div class="width2 flex g-1 flex-col-sm">
-	<div class="flex-1">
-		<h3 class="icon-text">
+<div class="width">
+	<section>
+		<h1 class="icon-text">
 			<img src="/assets/dancing-banana.gif" alt="dancing banana">
 			THE BOLG
-		</h3>
+		</h1>
 		<p>I write blog posts about tech, freedom, philosophy, and economics.</p>
 		% include("components/postsList.html")
-		<p><a href="/blog">→ More</a></p>
-	</div>
+		<p><a href="/blog">↪ More</a></p>
+	</section>
 
-	<div class="flex-1">
-		<h3 class="icon-text">
+	<hr style="margin: 2rem 0;">
+	
+	<section>
+		<h1 class="icon-text">
 			<img src="/assets/potato-spin.gif" alt="spinning potato">
 			Videos
-		</h3>
+		</h1>
 		<p>I also make videos which you can find on Odysee and YouTube.</p>
-		<div>
-			<h3>{{featured}}</h3>
-			<a href="{{featured_o}}" target="_blank">👨‍🚀 odysee</a>
-			<a href="{{featured_y}}" target="_blank">► youtube</a>
+		<div class="video">
+			<div>
+				<img src="/assets/featured.png" alt="featured video thumbnail">
+			</div>
+			<div>
+				<p><strong>{{featured}}</strong></p>
+				<a href="{{featured_o}}" target="_blank">↪ odysee</a>
+				<a href="{{featured_y}}" target="_blank">↪ youtube</a>
+			</div>
 		</div>
-		<br>
-		<img src="/assets/featured.png" width="70%" alt="featured video thumbnail">
-	</div>
+	</section>
 </div>
 
 <div class="width text-center">

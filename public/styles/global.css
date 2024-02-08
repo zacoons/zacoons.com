@@ -6,16 +6,14 @@
 }
 
 :root {
-	--background-1: rgb(196, 196, 196);
-	--background-2: rgb(179, 179, 179);
+	--background: white;
 	--primary: blue;
 	--foreground: black;
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--background-1: black;
-		--background-2: rgb(32, 32, 32);
+		--background: rgb(12, 12, 12);
 		--primary: cornflowerblue;
 		--foreground: white;
 	}
@@ -24,7 +22,7 @@
 body {
 	margin: 0;
 	font-family: fira-mono;
-	background: var(--background-1);
+	background: var(--background);
 	color: var(--foreground);
 }
 
@@ -33,22 +31,16 @@ a {
 	color: var(--primary);
 }
 
-.width, .width2 {
+.width {
 	margin-left: auto;
 	margin-right: auto;
-}
-.width {
 	width: 40%;
-}
-.width2 {
-	width: 50%;
 }
 
 pre {
-	margin: 0;
 	display: inline-block;
-	padding: .5rem;
-	background: var(--background-2);
+	margin: 0;
+	padding: 1rem;
 }
 
 article {
@@ -62,20 +54,35 @@ article {
 }
 
 .icon-text img {
-	width: 2.5em;
-	height: 2.5em;
+	width: 1.5em;
+	height: 1.5em;
 }
 
 ul.clean, nav .dropdown ul {
 	list-style: none;
-	background: var(--background-2);
 	padding: 1rem;
 	display: flex;
 	flex-direction: column;
 	gap: 1rem;
 }
 
-/* ------- NAV & FOOTER ------- */
+.video {
+	display: flex;
+	gap: 1rem;
+	padding: 1rem;
+	margin: 1rem 0;
+}
+.video div:first-of-type {
+	width: 33%;
+}
+.video div:not(:first-of-type) {
+	flex: 1;
+}
+.video div img {
+	max-width: 100%;
+}
+
+/* NAV & FOOTER */
 nav {
 	padding: .7rem 0 .7rem 0;
 	display: flex;
@@ -87,6 +94,7 @@ nav .dropdown ul {
 	max-width: 7rem;
 	position: absolute;
 	margin-left: -1rem;
+	background: var(--background);
 
 	visibility: collapse;
 }
@@ -98,33 +106,14 @@ footer {
 	font-size: .75rem;
 	padding-bottom: 1rem;
 }
-/* ------- END NAV ------- */
 
-/* ------- STYLE HELPERS ------- */
-.flex {
-	display: flex;
-}
-.flex-col {
-	flex-direction: column;
-}
-.flex-1 {
-	flex: 1;
-}
-.g-1 {
-	gap: 1rem;
-}
-
+/* STYLE HELPERS */
 .text-center {
 	text-align: center;
 }
-/* ------- END STYLE HELPERS ------- */
 
 @media screen and (max-width: 800px) {
-	.width, .width2 {
+	.width {
 		width: 90%;
-	}
-
-	.flex-col-sm {
-		flex-direction: column;
 	}
 }

@@ -3,10 +3,10 @@ from urllib.parse import quote_plus
 
 with open("public/.rss", "w") as f:
     f.writelines([
-        "<?xml version=\"1.0\" encoding=\"utf-8\"?>",
-        "<rss xmlns:atom=\"http://www.w3.org/2005/Atom\" version=\"2.0\">",
+        "<?xml version='1.0' encoding='utf-8'?>",
+        "<rss xmlns:atom='http://www.w3.org/2005/Atom' version='2.0'>",
         "<channel>",
-            "<atom:link href=\"https://zacoons.com/.rss\" rel=\"self\" type=\"application/rss+xml\"/>"
+            "<atom:link href='https://zacoons.com/.rss' rel='self' type='application/rss+xml'/>"
             "<title>zacoons' blog</title>",
             "<link>https://zacoons.com/blog</link>",
             "<description>Recent posts on zacoons' blog</description>",

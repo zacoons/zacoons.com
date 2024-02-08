@@ -6,7 +6,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 
 # load config
-conf = type('', (), {})()
+conf = type("", (), {})()
 with open(".conf") as conf_file:
     conf_file_lines = conf_file.read().splitlines()
     for line in conf_file_lines:
