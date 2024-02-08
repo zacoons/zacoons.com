@@ -4,21 +4,18 @@ tr {
 td {
     width: 5rem;
 }
-
 td.on {
     background-color: green;
 }
 td.on.hover {
     background-color: rgb(0, 100, 0);
 }
-
 td.off {
     background-color: red;
 }
 td.off.hover {
     background-color: rgb(192, 0, 0);
 }
-
 table.win td {
     background-color: yellow;
 }

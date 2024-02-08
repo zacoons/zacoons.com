@@ -1,7 +1,7 @@
 posts
 __pycache__
-.conf
+.var
 public/.rss
 public/assets/featured.png
 venv/
-tmp/
+bin/

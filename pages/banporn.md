@@ -1,8 +1,10 @@
-Ban Porn - zacoons' place ;z; It should be panned
-
++head+
+    <title>Ban Porn</title>
+    <meta name="description" content="Porn is immoral, it spawns corruption, it drains time and energy, it ruins your life, it ruins your relationships, and much worse.">
++head+
 Before I even begin, I just want to say that I'm not calling for legislation to ban porn. For more information, read the final section of this page (not the links).
 
-# &#128073; [Easy Peasy guide to quitting porn](https://read.easypeasymethod.org/) &#128072;
+# 👉 [Easy Peasy guide to quitting porn](https://read.easypeasymethod.org/) 👈
 
 # Effects of Porn on Yourself
 
@@ -29,7 +31,7 @@ Therefore, by continuing to consume porn, you are subsidizing the industry. You 
 
 Furthermore, porn can destroy your marriage (or future marriage). As mentioned above, it can cause sexual dysfunction or disinterest, resulting in a dissatisfied partner. Or it can cause you to have irrational expectations from your partner leading to your own dissatisfaction. It also promotes promiscuity, and increases chances of adultery (e.g. cheating on your partner). Porn can even harm non-romantic relationships due to a change in tastes (e.g. art, music, literature), reduced attention span, and lower impulse control.
 
-# &#128073; [Easy Peasy guide to quitting porn](https://read.easypeasymethod.org/) &#128072;
+# 👉 [Easy Peasy guide to quitting porn](https://read.easypeasymethod.org/) 👈
 
 # You Can Help Fight Against Porn
 

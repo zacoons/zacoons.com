@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="alternate" type="application/rss+xml" title="zacoons' blog RSS feed" href="/.rss">
+        <link rel="stylesheet" href="/styles/global.css">
+        {{head_append}}
+    </head>
+
+    <body>
+        <nav>
+            <a href="/">home</a>
+            |
+            <div class="dropdown">
+                <span>bolg ▼</span>
+                <ul>
+                    <li><a href="/blog">bolg</a></li>
+                    <li><a href="/.rss">rss</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <span>videos ▼</span>
+                <ul>
+                    <li><a href="https://odysee.com/@zacoons" target="_blank">odysee</a></li>
+                    <li><a href="https://youtube.com/@zacoons" target="_blank">youtube</a></li>
+                </ul>
+            </div>
+            <a href="/projects">projects</a>
+            <a href="https://github.com/zacoons/zacoons.com">site src code</a>
+        </nav>
+
+        {{page_html}}
+
+        <footer class="text-center">
+            <hr>
+            <a href="mailto:zac@zacoons.com">✉ zac@zacoons.com</a> ~
+            <a href="https://matrix.to/#/@yrahcaz:matrix.org" target="_blank">[matrix]</a> ~
+            <a href="/blog">🦙 blog</a> ~
+            <a href="https://odysee.com/@zacoons" target="_blank">👨‍🚀 odysee</a> ~
+            <a href="https://youtube.com/@zacoons" target="_blank">► youtube</a>
+            <span class="date">site updated {{updatedstr}}</span>
+        </footer>
+    </body>
+</html>

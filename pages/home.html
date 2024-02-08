@@ -1,43 +1,46 @@
-zacoons' place ;z; A place of awesome epicness that is very awesome. Includes blog and epic coding. ;z; home.css
-
-<div class="width">
-	<section>
-		<h1 class="icon-text">
-			<img src="/assets/dancing-banana.gif" alt="dancing banana">
-			THE BOLG
-		</h1>
-		<p>I write blog posts about tech, freedom, philosophy, and economics.</p>
-		% include("components/postsList.html")
-		<p><a href="/blog">↪ More</a></p>
-	</section>
-
-	<hr style="margin: 2rem 0;">
-	
-	<section>
-		<h1 class="icon-text">
-			<img src="/assets/potato-spin.gif" alt="spinning potato">
-			Videos
-		</h1>
-		<p>I also make videos which you can find on Odysee and YouTube.</p>
-		<div class="video">
-			<div>
-				<img src="/assets/featured.png" alt="featured video thumbnail">
-			</div>
-			<div>
-				<p><strong>{{featured}}</strong></p>
-				<a href="{{featured_o}}" target="_blank">↪ odysee</a>
-				<a href="{{featured_y}}" target="_blank">↪ youtube</a>
-			</div>
-		</div>
-	</section>
++head+
+    <title>zacoons' place</title>
+    <meta name="description" content="A place of awesome epicness that is very awesome. Includes blog and epic coding.">
++head+
+<div>
+    <h1 class="icon-text">
+        <img src="/assets/dancing-banana.gif" alt="dancing banana">
+        THE BOLG
+    </h1>
+    <p>I write blog posts about tech, freedom, philosophy, and economics.</p>
+    {{posts 5}}
+    <p><a href="/blog">↪ More</a></p>
 </div>
 
-<div class="width text-center">
-	<hr>
-	<a href="/banporn">
-		<img src="assets/banporn.png" alt="BAN PORN">
-	</a>
-	<a href="/whychrist">
-		<img src="assets/whychrist.png" alt="WHY CHRIST">
-	</a>
+<hr>
+
+<div>
+    <h1 class="icon-text">
+        <img src="/assets/potato-spin.gif" alt="spinning potato">
+        Videos
+    </h1>
+    <p>I also make videos which you can find on Odysee and YouTube.</p>
+    <div class="video">
+        <div>
+            <img src="/assets/featured.png" alt="featured video thumbnail">
+        </div>
+        <div>
+            <p style="margin: 0;"><strong>{{featured}}</strong></p>
+            <a href="{{featured_o}}" target="_blank">↪ odysee</a>
+            <span> </span>
+            <a href="{{featured_y}}" target="_blank">↪ youtube</a>
+        </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="text-center">
+    <a href="/banporn">
+        <img src="assets/banporn.png" alt="BAN PORN">
+    </a>
+    <span> </span>
+    <a href="/whychrist">
+        <img src="assets/whychrist.png" alt="WHY CHRIST">
+    </a>
 </div>
