@@ -1,0 +1,41 @@
+<div class="flex banner">
+	<img src="/assets/banner.png" alt="epic banner">
+</div>
+
+<div class="width2">
+	<hr>
+	<div class="marquee">
+		<p>{{marquee}}</p>
+	</div>
+	<hr>
+
+	<section>
+		<h1>THE PLACE</h1>
+		<p class="icon-text">
+			<img src="/assets/potato-spin.gif" alt="spinning potato">
+			<img src="/assets/dancing-banana.gif" alt="dancing banana">
+			Hello
+		</p>
+	</section>
+
+	<section class="flex g-1 flex-col-sm">
+		<div class="flex-1">
+			<h3>THE BOLG</h3>
+			<p>I write blog posts about tech, freedom, philosophy and economics.</p>
+			% include("components/postsList.html")
+			<p><a href="/blog">→ More</a></p>
+		</div>
+
+		<div class="flex-1">
+			<h3>Videos</h3>
+			<p>I also make videos which you can find on Odysee and YouTube.</p>
+			<div>
+				<h3>{{featured}}</h3>
+				<a href="{{featured_o}}" target="_blank">👨‍🚀 odysee</a>
+				<a href="{{featured_y}}" target="_blank">► youtube</a>
+			</div>
+			<br>
+			<img src="/assets/featured.png" width="70%" alt="featured video thumbnail">
+		</div>
+	</section>
+</div>
