@@ -8,14 +8,14 @@ Before I even begin, I just want to say that I'm not calling for legislation to 
 
 # Effects of Porn on Yourself
 
--   Being dumber (diminished neuroplasticity)
--   Dopamine resistance
--   Lower impulse control
--   Sexual dysfunction, disinterest, dissatisfaction and/or delusional fantasies
--   Diminished self respect
--   Hair loss, worse skin, more fat, less muscle, lower energy, etc.
--   Moral decline
--   Drains time and energy
+- Being dumber (diminished neuroplasticity)
+- Dopamine resistance
+- Lower impulse control
+- Sexual dysfunction, disinterest, dissatisfaction and/or delusional fantasies
+- Diminished self respect
+- Hair loss, worse skin, more fat, less muscle, lower energy, etc.
+- Moral decline
+- Drains time and energy
 
 But hey, if that's not enough, consumption of porn also affects those around you.
 
@@ -43,6 +43,6 @@ Please help end porn by putting a similar page on your own site.
 
 ![banporn](/assets/banporn.png)
 
-<h1 id="links">Links</h1>
+# Links
 
 [a similar more detailed page](https://denshi.org/antiporn), [goldmine of studies](https://www.yourbrainonporn.com/research), [effects on the brain](https://www.yourbrainonporn.com/relevant-research-and-articles-about-the-studies/brain-studies-on-porn-users-sex-addicts/#brain), [sexual dysfunction and dissatisfaction](https://www.yourbrainonporn.com/relevant-research-and-articles-about-the-studies/porn-use-sex-addiction-studies/studies-linking-porn-use-or-porn-sex-addiction-to-sexual-dysfunctions-and-poorer-sexual-and-relationship-satisfaction/), [diminished neuroplasticity and change of tastes](https://journal.media-culture.org.au/index.php/mcjournal/article/view/773), [sexual aggression](https://www.researchgate.net/publication/288905229_A_Meta-Analysis_of_Pornography_Consumption_and_Actual_Acts_of_Sexual_Aggression_in_General_Population_Studies), [child porn on discord](https://www.registredesactionscollectives.quebec/en/Consulter/ApercuDemande?NoDossier=500-06-001115-209), [child porn on pornhub](https://www.registredesactionscollectives.quebec/en/Consulter/ApercuDemande?NoDossier=500-06-001115-209), [human trafficking on pornhub](https://endsexualexploitation.org/wp-content/uploads/Doe-v.-MindGeek_Complaint.pdf)
